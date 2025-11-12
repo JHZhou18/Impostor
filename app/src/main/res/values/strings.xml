@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Impostor</string>
+    <string name="room_configuration_title">Configuración de la sala</string>
+    <string name="player_name_hint">Nombre del jugador</string>
+    <string name="players_title">Jugadores</string>
+    <string name="number_of_impostors_title">Número de Impostores</string>
+    <string name="number_of_impostors_description">Elige cuántos impostores habrá</string>
+    <string name="impostor_hint_title">Pista para el Impostor</string>
+    <string name="impostor_hint_description">Activa para dar una pista al impostor</string>
 </resources>

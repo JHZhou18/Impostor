@@ -1,16 +1,22 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.Impostor" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_500</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/white</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
-        <item name="colorSecondaryVariant">@color/teal_700</item>
-        <item name="colorOnSecondary">@color/black</item>
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Impostor" parent="android:Theme.Material.NoActionBar">
+        <!-- Colores de la Marca y Acentos -->
+        <item name="android:colorPrimary">@color/primary_text_and_titles</item>
+        <item name="android:colorPrimaryDark">@color/primary_text_and_titles</item> <!-- Usamos el mismo para consistencia -->
+        <item name="android:colorAccent">@color/accent_action</item>
+
+        <!-- Colores de Fondo y Superficies -->
+        <item name="android:windowBackground">@color/background_app</item>
+        <item name="android:colorBackground">@color/background_app</item>
+
+        <!-- Colores de Texto -->
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+
+        <!-- Mantengo la fuente que elegimos -->
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
     </style>
 </resources>
